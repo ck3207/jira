@@ -6,7 +6,7 @@ import requests
 import configparser
 
 from login import  valid_cookie
-from Jira import logging
+from public import logging
 from request_info import r_json
 from loading_config import config_obj_of_jira_relation, config_obj_of_authority
 from get_info_from_excel import GetInfoFromExcel

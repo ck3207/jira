@@ -1,10 +1,6 @@
-import re
-
-import requests
-import logging
 import time
 
-from Jira import logging
+from public import logging
 from loading_config import config_obj_of_authority
 
 class Login:
